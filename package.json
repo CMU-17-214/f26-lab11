@@ -1,0 +1,23 @@
+{
+  "name": "campus-reservations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Campus room reservation service for CMU 17-214/514 Lab 11.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "demo:replay": "tsx src/demos/replayDemo.ts",
+    "demo:failure": "tsx src/demos/failureDemo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "fast-check": "^3",
+    "tsx": "^4",
+    "typescript": "^5",
+    "vitest": "^3"
+  }
+}
